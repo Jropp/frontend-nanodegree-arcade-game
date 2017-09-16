@@ -1,0 +1,44 @@
+Junk code:
+
+Code for calculating columns that are divided in to 15 segnments
+
+   if (0 < this.x > 33)  {this.col = "x1" }
+    else if (34 < this.x > 66) {this.col= "x2" }
+    else if (67 < this.x > 100) {this.col = "x3" }
+    
+    else if (101 < this.x > 133) {this.col = "x4" }
+    else if (134 < this.x > 166) {this.col = "x5" }
+    else if (167 < this.x > 200) {this.col = "x6" }
+    
+    else if (201 < this.x > 233) {this.col = "x7" }
+    else if (234 < this.x > 266) {this.col = "x8" }
+    else if (267 < this.x > 300) {this.col = "x9" }
+    
+    else if (301 < this.x > 333) {this.col = "x10" }
+    else if (334 < this.x > 366) {this.col = "x11" }
+    else if (367 < this.x > 400) {this.col = "x12" }
+    
+    else if (401 < this.x > 433) {this.col = "x13" }
+    else if (434 < this.x > 466) {this.col = "x14" }
+    else if (467 < this.x > 500) {this.col = "x15" };
+};
+
+  if (0 < this.x > 33)  {this.col = "x1"; console.log("x1");} //checks the column location of the character along x axis broken up into 15 sections
+        else if (34 < this.x > 66) {this.col= "x2" }
+        else if (67 < this.x > 100) {this.col = "x3" }
+        
+        else if (101 < this.x > 133) {this.col = "x4"; console.log("x4");}
+        else if (134 < this.x > 166) {this.col = "x5"; console.log("x5");}
+        else if (167 < this.x > 200) {this.col = "x6"; console.log("x6");}
+        
+        else if (201 < this.x > 233) {this.col = "x7" }
+        else if (234 < this.x > 266) {this.col = "x8" }
+        else if (267 < this.x > 300) {this.col = "x9" }
+        
+        else if (301 < this.x > 333) {this.col = "x10" }
+        else if (334 < this.x > 366) {this.col = "x11" }
+        else if (367 < this.x > 400) {this.col = "x12" }
+        
+        else if (401 < this.x > 433) {this.col = "x13" }
+        else if (434 < this.x > 466) {this.col = "x14" }
+        else if (467 < this.x > 500) {this.col = "x15" };
